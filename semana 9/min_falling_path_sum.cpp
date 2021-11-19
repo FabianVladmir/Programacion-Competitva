@@ -44,7 +44,8 @@ int minFallingPathSum(vector<vector<int>>& arr) {
 
 int main(){
 
-
+    vector<vector<int>> matrix{{2,1,3},{6,5,4},{7,8,9}};
+    cout << minFallingPathSum(matrix) << endl;
 
     return 0;
 }
